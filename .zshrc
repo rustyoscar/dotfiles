@@ -22,7 +22,6 @@ pfetch
 # Turn off bluetooth
 #rfkill block bluetooth
 
-alias upup="yay"
 alias fup="sudo flatpak update --system"
 alias ll="ls -la --color=auto"
 alias lr="ls -latr --color=auto"
