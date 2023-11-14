@@ -5,5 +5,6 @@ vim.opt.relativenumber = true
 
 vim.opt.colorcolumn = "80"
 
-vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>tt", ":! ")
+
+vim.g.dap_virtual_text = true
