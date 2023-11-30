@@ -28,6 +28,7 @@ alias lr="ls -latr --color=auto"
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
+alias c="clear"
 alias pf="clear; pfetch"
 alias wa="curl 'wttr.in/austin?u'"
 alias wi="curl 'wttr.in/irving?u'"
@@ -75,3 +76,5 @@ compinit
 export GOBIN=/home/chuey/Dev/go/bin
 export GOPATH=/home/chuey/Dev/go
 export PATH=$PATH:$GOBIN:~/.emacs.d/bin:/usr/local/share/nvim
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/.local/lib/mojo
+export PATH=$PATH:~/.modular/pkg/packages.modular.com_mojo/bin/
