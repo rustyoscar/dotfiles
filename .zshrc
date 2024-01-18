@@ -51,6 +51,10 @@ alias te="nv ~/.config/tmux/tmux.conf"
 alias hss="hugo serve --noHTTPCache"
 alias jctl="journalctl -xe"
 alias em="emacsclient -c &"
+alias cr="cargo run"
+alias cb="cargo build"
+alias cn="cargo new --vcs none"
+alias cdo="cargo doc --open"
 #alias sc="emacsclient -c -e \(switch-to-buffer "*scratch*"\) &"
 
 
